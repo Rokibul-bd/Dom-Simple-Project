@@ -12,10 +12,14 @@ function main() {
     const root = document.getElementById('root');
     const btn = document.getElementById('change-btn');
     const output = document.getElementById('output');
+    const copyBtn = document.getElementById('copyBtn');
     btn.addEventListener('click', function () {
         const bgColor = rgbBackgroundColor();
         root.style.background = bgColor;
         output.value = bgColor;
+    })
+    copyBtn.addEventListener('click', function () {
+        navigator.clipboard.writeText(output.value);
     })
 }
 

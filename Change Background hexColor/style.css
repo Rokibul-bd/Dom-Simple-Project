@@ -21,12 +21,25 @@
 }
 
 #output {
-    padding: 10px 15px;
-    box-shadow: 1px 1px 4px #fff;
+    padding: 10px 5px;
+    box-shadow: -1px -1px 0px #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
     background: #fff;
     outline: none;
     border: none;
     margin: 20px;
+
+}
+
+.copyBtn-flex {
+    display: flex;
+    align-items: center;
+}
+
+.copyBtn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
 }
 
 #change-btn {
