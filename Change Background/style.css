@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headding {
+    text-shadow: -1px -1px 0px #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.btn-flex {
+    display: flex;
+    justify-content: center;
+}
+
+#change-btn {
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    background: purple;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 4px;
+    box-shadow: 3px 4px 13px 7px #fff;
+}
